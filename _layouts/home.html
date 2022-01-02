@@ -39,7 +39,8 @@
     </main>
     <div class="container">
       <div class="row">
-        <div id="tag-list" class="col-md-12">
+        <div class="col-md-12">
+          <a  id="{{ tag-list }}" style="position:absolute; top:-100px;"></a>
           {% if site.data.tags.section_title != '' %}
             <h2 class="section-title text-center">{{ site.data.tags.section_title }}</h2>
           {% endif %}
