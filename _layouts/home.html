@@ -40,6 +40,14 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-offset-2">
+          {% if site.data.tags.section_title != '' %}
+            <h2 class="section-title text-center">{{ site.data.tags.section_title }}</h2>
+          {% endif %}
+          {% if site.data.tags.section_subtitle != '' %}
+            <p class="section-subtitle text-center">{{ site.data.tags.section_subtitle }}</p>
+          {% endif %}
+
+          <div class="break"></div>
           {% include tags.html %}
         </div>
       </div>
