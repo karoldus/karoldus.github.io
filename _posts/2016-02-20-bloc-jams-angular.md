@@ -10,4 +10,5 @@ project_link: 'https://github.com/jamigibbs/bloc-jams-angular'
 button_icon: 'github'
 button_text: 'Visit Project'
 lead_text: 'A digital music player built using AngularJS'
+time_range: '10.2020 - 06.2021'
 ---

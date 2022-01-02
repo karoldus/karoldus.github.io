@@ -10,4 +10,5 @@ project_link: 'https://github.com/jamigibbs'
 button_icon: 'flask'
 button_text: 'Visit Project'
 lead_text: "A minimalist Jekyll theme that you're looking at it right now"
+time_range: '10.2020 - 06.2021'
 ---

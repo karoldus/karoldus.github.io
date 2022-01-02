@@ -10,4 +10,5 @@ project_link: 'https://rescuethemes'
 button_text: 'Visit Rescue Themes'
 button_icon: 'wordpress'
 lead_text: 'Designed and developed all WordPress themes'
+time_range: '10.2020 - 06.2021'
 ---

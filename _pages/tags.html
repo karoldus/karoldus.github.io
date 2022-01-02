@@ -31,7 +31,7 @@ permalink: /tags/
                 {% comment %} <a data-toggle="modal" data-target="#{{ post.title }}"> Why not get in touch?</a>
                 <div class="modal hide" role="dialog" id="{{ post.title }}"> My favorite music is {{ post.title }}</div> {% endcomment %}
                 <div class="entry-date">
-                    <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
+                    <time datetime="{{ post.time_range }}">{{- post.date | date: date_format -}}</time>
                 </div>
             </div>
         {%- endfor -%}
