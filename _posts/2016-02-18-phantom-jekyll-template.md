@@ -1,6 +1,5 @@
 ---
 layout: inner
-position: left
 title: 'Phantom'
 date: 2016-02-20 21:15:00
 categories: development design
