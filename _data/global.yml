@@ -1,6 +1,6 @@
 # Site Settings
 title: "Hello. I'm Karol Duszczyk."
-description: "I'm a ... Hello World! (This site is under construction) "
+description: "I'm an IoT Engineering student at Warsaw University of Technology. (This site is still under construction) "
 url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2022 Karol Duszczyk'
