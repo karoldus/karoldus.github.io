@@ -4,7 +4,6 @@ description: "I'm a ... Hello World! (This site is under construction) "
 url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2022 Karol Duszczyk'
-# twitter: 'jamigibbs'
 github: 'karoldus'
 linkedin: 'duszczykkarol'
 

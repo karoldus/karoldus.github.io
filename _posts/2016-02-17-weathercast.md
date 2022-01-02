@@ -12,4 +12,4 @@ button_text: 'Visit Project'
 lead_text: 'A simple weather forecast app for your favorite city.'
 ---
 
-<h1>{{ post.title }}</h1>
+Some text.
