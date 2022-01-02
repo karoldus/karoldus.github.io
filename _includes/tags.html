@@ -7,7 +7,7 @@
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-    <a href="#{{- tag -}}" class="btn btn-primary tag-btn">{% comment %}<i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{% endcomment %}{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+    <a href="#{{- tag -}}" class="btn btn-primary tag-btn">{% comment %}<i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{% endcomment %}&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>&nbsp;
 {%- endfor -%}
 
 <div id="full-tags-list">
