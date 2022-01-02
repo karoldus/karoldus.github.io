@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: post
 position: left
 title: 'Weathercast'
 date: 2016-02-20 15:56:00
