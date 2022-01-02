@@ -5,7 +5,7 @@ permalink: /tags/
 ---
 {% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> {% endcomment %}
 
-{% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+{% assign date_format = site.date_format | default: "%B %Y" %}
 
 {%- capture site_tags -%}
     {%- for tag in site.tags -%}
