@@ -22,9 +22,9 @@
                 <a class="project-link" href="#{{ post.title }}">{{- post.title | strip_html -}}</a>
                 {% comment %} <a data-toggle="modal" data-target="#{{ post.title }}"> Why not get in touch?</a>
                 <div class="modal hide" role="dialog" id="{{ post.title }}"> My favorite music is {{ post.title }}</div> {% endcomment %}
-                <p class="entry-date">
+                <div class="entry-date">
                     - {{ post.time_range }}
-                </p>
+                </div>
             </div>
         {%- endfor -%}
     </div>
