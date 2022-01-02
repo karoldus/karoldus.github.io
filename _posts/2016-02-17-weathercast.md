@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: inner
 position: left
 title: 'Weathercast'
 date: 2016-02-20 15:56:00
@@ -11,3 +11,5 @@ button_icon: 'github'
 button_text: 'Visit Project'
 lead_text: 'A simple weather forecast app for your favorite city.'
 ---
+
+<h1>{{ post.title }}</h1>
