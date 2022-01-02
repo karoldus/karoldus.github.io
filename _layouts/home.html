@@ -16,16 +16,16 @@
 
             <div class="break"></div>
 
-            {% temp = 0 %}
+            {% assign temp = 0 %}
 
             {% for post in paginator.posts %}
               <div class="wow fadeIn">
               {% if temp == 0 %}
                 {% include content-left.html %}
-                {% temp = 1 %}
+                {% assign temp = 1 %}
               {% else %}
                 {% include content-right.html %}
-                {% temp = 0 %}
+                {% assign temp = 0 %}
               {% endif %}
               </div>
               
