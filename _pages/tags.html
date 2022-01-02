@@ -27,7 +27,8 @@ permalink: /tags/
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a href="{{ post.url}}">{{- post.title | strip_html -}}</a>
+                <a href="{{ post.url }}" id="{{ post.title }}">{{- post.title | strip_html -}}</a>
+                <div class="modal hide" role="dialog" id="{{post.title}}"> My favorite music is {{ post.title }}</div>
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
                 </div>
