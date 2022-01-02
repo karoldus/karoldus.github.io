@@ -1,14 +1,14 @@
 # Site Settings
-title: "Hello. I'm Jami Gibbs."
-description: "I'm a software developer and designer from Chicago creating useful things for the web."
-url: 'https://karoldus.github.io/phantom/' # the base hostname & protocol for your site
+title: "Hello. I'm Karol Duszczyk."
+description: "I'm a ..."
+url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
-footer_text: '© 2016 Jami Gibbs'
+footer_text: '© 2022 Karol Duszczyk'
 twitter: 'jamigibbs'
 github: 'jamigibbs'
 medium: 'blog.jamigibbs.com'
 
 # Admin Settings
 admin_name: 'Jami Gibbs'
-admin_email: 'jami0821@gmail.com'
+admin_email: 'test'
 google_analytics: "UA-9999999-99" # Update with your own tracking ID
