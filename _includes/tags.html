@@ -12,11 +12,11 @@
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
-    <a  id="{{- tag -}}" style="position:absolute; top:-100px;"></a>
-    <h2 class="linked-section">
+    <h2  class="linked-section">
         {% comment %}<i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{% endcomment %}
         {{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
+    <a  id="{{- tag -}}" style="position:absolute; top:-100px;"></a>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
