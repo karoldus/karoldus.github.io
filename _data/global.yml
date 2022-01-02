@@ -4,9 +4,9 @@ description: "I'm a ..."
 url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2022 Karol Duszczyk'
-twitter: 'jamigibbs'
-github: 'jamigibbs'
-medium: 'blog.jamigibbs.com'
+# twitter: 'jamigibbs'
+github: 'karoldus'
+linkedin: 'duszczykkarol'
 
 # Admin Settings
 admin_name: 'Jami Gibbs'
