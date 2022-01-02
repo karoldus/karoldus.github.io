@@ -16,7 +16,7 @@
         {% comment %}<i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{% endcomment %}
         {{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
-    <a  id="{{- tag -}}" style="position:absolute; top:-100px;"></a>
+    <a  id="{{ tag }}" style="position:absolute; top:-100px;"></a>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
