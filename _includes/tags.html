@@ -19,12 +19,12 @@
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a class="project-link" href="#{{ post.title }}">{{- post.title | strip_html -}}</a>
+                
                 {% comment %} <a data-toggle="modal" data-target="#{{ post.title }}"> Why not get in touch?</a>
                 <div class="modal hide" role="dialog" id="{{ post.title }}"> My favorite music is {{ post.title }}</div> {% endcomment %}
-                <div class="entry-date">
-                    - {{ post.time_range }}
-                </div>
+                <p class="entry-date">
+                    <a href="#{{ post.title }}">{{- post.title | strip_html -}}</a> - {{ post.time_range }}
+                </p>
             </div>
         {%- endfor -%}
     </div>
