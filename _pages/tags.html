@@ -3,7 +3,7 @@ layout: inner
 title: 'Tag Index'
 permalink: /tags/
 ---
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+{% comment %} <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> {% endcomment %}
 
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
@@ -21,13 +21,13 @@ permalink: /tags/
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
     <h2 id="{{- tag -}}" class="linked-section">
-        {% comment %}<i class="fas fa-tag" aria-hidden="true"></i>{% endcomment %}
-        &nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})
+        {% comment %}<i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{% endcomment %}
+        {{- tag -}}&nbsp;({{site.tags[tag].size}})
     </h2>
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
+                <a href="{{ post.url}}">{{- post.title | strip_html -}}</a>
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
                 </div>
