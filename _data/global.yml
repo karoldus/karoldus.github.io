@@ -1,6 +1,6 @@
 # Site Settings
 title: "Hello. I'm Karol Duszczyk."
-description: "I'm a ..."
+description: "I'm a ... Hello World! (This site is under construction) "
 url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
 footer_text: '© 2022 Karol Duszczyk'
@@ -9,6 +9,6 @@ github: 'karoldus'
 linkedin: 'duszczykkarol'
 
 # Admin Settings
-admin_name: 'Jami Gibbs'
-admin_email: 'test'
-google_analytics: "UA-9999999-99" # Update with your own tracking ID
+admin_name: 'Karol Duszczyk'
+admin_email: ''
+google_analytics: "" # Update with your own tracking ID
