@@ -2,4 +2,4 @@ main:
     - { url: '/', text: 'Home' }
     # - { url: '/about', text: 'About' }
     - { url: '#portfolio', text: 'Portfolio' }
-    # - { url: '#tag-list', text: 'Technologies' }
+    - { url: '#technologies', text: 'Technologies' }
