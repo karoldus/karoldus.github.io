@@ -1,6 +1,0 @@
-main:
-    - { stage: 'I semester', 
-      things:
-        - 'Arduino'
-        - 'ESP8266'
-      }

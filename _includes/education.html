@@ -10,35 +10,14 @@
             <div class="break"></div>
             ...
 
-            <ul>
-            {% for item in site.data.education.main %}
-                <li>
-                    <h2>{{ item.stage }}</h2>
-                    <ul>
-                        {% for thing in item.things %}
-                        <li> {{ thing }} </li>
-                        {% endfor %}
-                    </ul>
-                </li>
-            {% endfor %}
-            </ul>
+            <div id="ed-III">
+                <h2>III semester</h2>
 
-          {% comment %} {% assign temp = 0 %}
-
-          {% for post in paginator.posts %}
-            <div class="wow fadeIn">
-            {% if temp == 0 %}
-              {% include content-left.html %}
-              {% assign temp = 1 %}
-            {% else %}
-              {% include content-right.html %}
-              {% assign temp = 0 %}
-            {% endif %}
+                <ul>
+                    <li>Raspberry Pi</li>
+                    <li>MQTT, RESTAPI</li>
+                </ul>
             </div>
-            
-          {% endfor %}
-
-          {% include pagination.html %} {% endcomment %}
 
         </div>
       </div>
