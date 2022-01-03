@@ -1,0 +1,45 @@
+<main id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+            <h2 class="section-title text-center">Education</h2>
+            <p class="section-subtitle text-center">What I have learned during my IoT Engineering course.</p>
+          
+
+            <div class="break"></div>
+            ...
+
+            <ul>
+            {% for item in site.data.education.main %}
+                <li>
+                    <h2>{{ item.stage }}</h2>
+                    <ul>
+                        {% for thing in item.things %}
+                        <li> {{ thing }} </li>
+                    </ul>
+                </li>
+            {% endfor %}
+            </ul>
+
+          {% comment %} {% assign temp = 0 %}
+
+          {% for post in paginator.posts %}
+            <div class="wow fadeIn">
+            {% if temp == 0 %}
+              {% include content-left.html %}
+              {% assign temp = 1 %}
+            {% else %}
+              {% include content-right.html %}
+              {% assign temp = 0 %}
+            {% endif %}
+            </div>
+            
+          {% endfor %}
+
+          {% include pagination.html %} {% endcomment %}
+
+        </div>
+      </div>
+    </div>
+  </main>
