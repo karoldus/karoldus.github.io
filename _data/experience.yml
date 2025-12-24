@@ -11,4 +11,4 @@ items:
     company: "Drifthing"
     time_range: "07.2022 - Present"
     description: "Working on an IoT system for motosports tracking and analytics, including hardware and software development. Manage finances and logistics."
-    technologies: [C, GNSS, IMU, nRF, ZephyrOS, Linux, Raspberry Pi]
+    technologies: [C, GNSS, IMU, nRF, ZephyrOS, Linux, Raspberry Pi, 3D Printing]

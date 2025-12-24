@@ -2,8 +2,8 @@ section_title: "Achievements & Publications"
 section_subtitle: "Academic achievements, awards, and publications."
 
 items:
-  - title: "Firebase in IoT Applications"
-    type: "Technical Article"
-    time_range: "02.2020"
-    description: "1st place in FORBOT technical article contest. Comprehensive guide on using Firebase with ESP8266 for IoT projects."
-    link: "https://forbot.pl/forum/topic/19590-firebase-w-zastosowaniach-iot-1-czym-jest-firebase-jak-zaczac"
+  - title: "System for gait testing of elderly people"
+    type: "Presented on KRiT 2023 conference and article in Przegląd Telekomunikacyjny i Wiadomości Telekomunikacyjne (20 points in MNiSW list)"
+    time_range: "09.2023"
+    description: "The analysis of gait parameters makes it possible to assess the activity and health status of an elderly person. The paper describes a universal system for recording movement parameters based on acceleration, angular velocity and atmospheric pressure sensors. The recorded results are transmitted to a gateway located in the building where the person is staying, and after processing, they are sent to the PERHEART platform server. The article contains a description of the implemented system and preliminary results of the recording system tests."
+    link: "https://krit2023.tele.agh.edu.pl/files/Przeglad_Telek_4_2023_OPEN_final_NEW.pdf#page=363"
