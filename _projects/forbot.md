@@ -6,7 +6,7 @@ order: 2
 time_range: '02.2020'
 categories: contest
 tags: Firebase IoT database NoSQL writing_articles ESP8266
-featured_image: 'img/posts/forbot.png'
+featured_image: 'img/projects/forbot.png'
 project_link: 'https://forbot.pl/forum/topic/19590-firebase-w-zastosowaniach-iot-1-czym-jest-firebase-jak-zaczac'
 button_icon: 'book'
 button_text: 'Read an article (PL)'
