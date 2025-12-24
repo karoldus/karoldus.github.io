@@ -1,5 +1,8 @@
 main:
     - { url: '/', text: 'Home' }
-    # - { url: '/about', text: 'About' }
-    - { url: '#portfolio', text: 'Portfolio' }
+    - { url: '#portfolio', text: 'Projects' }
     - { url: '#technologies', text: 'Technologies' }
+    - { url: '#experience', text: 'Experience' }
+    - { url: '#organizations', text: 'Organizations' }
+    - { url: '#education', text: 'Education' }
+    - { url: '#achievements', text: 'Achievements' }
