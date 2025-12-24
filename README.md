@@ -1,53 +1,111 @@
-### Phantom for Jekyll
+# Karol Duszczyk - Personal Portfolio
 
-A minimalist, responsive portfolio theme for [Jekyll](http://jekyllrb.com/) with Bootstrap.
+Personal portfolio website built with Jekyll, showcasing my projects and skills in IoT Engineering.
 
-![preview](preview.jpg)
+🌐 **Live Site:** [karoldus.github.io](https://karoldus.github.io)
 
-[See it in action](http://jamigibbs.github.io/phantom/).
+## About
 
-### Fancy using it for your own site?
+I'm an IoT Engineering student at Warsaw University of Technology. This site presents my technical projects, courses, and achievements.
 
-Here are some steps to get you started:
+## Tech Stack
 
-1. Clone this repo and cd into the directory:
+- **Jekyll 4.3** - Static site generator
+- **Bootstrap** - Responsive framework
+- **GitHub Pages** - Hosting
+- **Custom Collections** - Projects organized as Jekyll collection
 
-  `git clone https://github.com/jamigibbs/phantom.git your-dir-name`
-  `cd your-dir-name`
-
-2. Run Jekyll:
-
-  `jekyll serve --watch`
-
-  _Don't have Jekyll yet? [Get `er installed then!](http://jekyllrb.com/docs/installation/)_
-
-3. Visit in your browser at:
-
-  `http://127.0.0.1:4000`
-
-### Launching with Github Pages :rocket:
-
-Jekyll + Github pages is a marriage made in heaven. You can [use your own custom domain name](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/) or use the default Github url (ie. http://username.github.io/repository) and not bother messing around with DNS settings.
-
-### Theme Features
-
-**Navigation**
-
-To activate a navigation bar in the header, set the global `nav` variable to true in:
-
-`/_data/global.yml`
-
-Then add your navigation items in the `/_data/nav.yml` file. For example:
+## Project Structure
 
 ```
-main:
-    - { url: '/', text: 'Home' }
-    - { url: '/about', text: 'About' }
+├── _config.yml          # Jekyll configuration
+├── _projects/           # Project portfolio items
+│   ├── bip.md          # Touchless button project
+│   ├── daft.md         # Python course
+│   ├── forbot.md       # Technical writing
+│   └── pbl3.md         # IoT system
+├── _layouts/            # Page templates
+├── _includes/           # Reusable components
+├── _data/               # Site data (navigation, etc.)
+├── _sass/               # Styles (Bootstrap customization)
+├── css/                 # Compiled CSS
+├── img/                 # Images and assets
+└── js/                  # JavaScript
+
 ```
 
-**Contact Form**
+## Local Development
 
-You can display a contact form within the modal window template. This template is already setup to use the [Formspree](https://formspree.io) email system. You'll just want to add your email address to the form in `/_includes/contact-modal.html`.
+### Prerequisites
+
+- Ruby (3.0+)
+- Bundler
+
+### Setup
+
+```bash
+# Install dependencies
+bundle install
+
+# Run local server
+bundle exec jekyll serve
+
+# Visit
+http://localhost:4000
+```
+
+### Adding New Projects
+
+Create a new file in `_projects/` with front matter:
+
+```yaml
+---
+layout: inner
+title: 'Project Name'
+date: 2025-01-01          # Actual completion date
+order: 5                   # Display order (lower = first)
+time_range: '01.2025 - 02.2025'
+categories: project
+tags: [Python, IoT, Arduino]
+featured_image: 'img/posts/project-name.png'
+project_link: 'https://github.com/username/repo'
+button_icon: 'github'
+button_text: 'View Project'
+lead_text: 'Brief project description'
+---
+
+Detailed project description here...
+```
+
+## Configuration
+
+Key settings in `_config.yml`:
+
+- **Site title and description** - Update in `_data/global.yml`
+- **Navigation** - Configure in `_data/nav.yml`
+- **Projects collection** - Configured for custom project display
+- **Plugins** - jekyll-paginate for project organization
+
+## Deployment
+
+Automatically deployed via GitHub Pages on push to main branch.
+
+## Theme
+
+Based on [Phantom theme](https://github.com/jamigibbs/phantom) by Jami Gibbs, heavily customized for project portfolio use.
+
+## License
+
+See [LICENSE](LICENSE) file.
+
+## Contact
+
+- **GitHub:** [@karoldus](https://github.com/karoldus)
+- **LinkedIn:** [duszczykkarol](https://linkedin.com/in/duszczykkarol)
+
+---
+
+© 2025 Karol Duszczyk
 
 Place the modal window template in any place you'd like the user to click for the contact form.
 The template will display a link to click for the contact form modal window:

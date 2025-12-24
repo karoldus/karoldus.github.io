@@ -1,6 +1,8 @@
 ---
 layout: inner
 title: 'look up!'
+date: 2022-02-01
+order: 4
 time_range: '10.2021 - 02.2022'
 categories: project
 tags: IoT RaspberrPI MQTT LoRaWAN Python
@@ -8,5 +10,5 @@ tags: IoT RaspberrPI MQTT LoRaWAN Python
 project_link: 'https://github.com/karoldus/pbl3-z5'
 button_icon: 'github'
 button_text: 'Visit Project'
-lead_text: 'Cloud detecting IoT system for astronomical observations (term group project).' # My role was to make a prototype based on Arduino, IR sensor and display.'
+lead_text: 'Cloud detecting IoT system for astronomical observations (term group project).'
 ---

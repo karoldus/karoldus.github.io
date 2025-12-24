@@ -1,6 +1,8 @@
 ---
 layout: inner
 title: 'DaftAcademy Python Level UP Course'
+date: 2021-05-01
+order: 3
 time_range: '04.2021 - 05.2021'
 categories: course
 tags: Python SQL FastAPI API WebApp Heroku

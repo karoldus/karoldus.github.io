@@ -1,6 +1,8 @@
 ---
 layout: inner
 title: 'FORBOT technical article contest'
+date: 2020-02-01
+order: 2
 time_range: '02.2020'
 categories: contest
 tags: Firebase IoT database NoSQL writing_articles ESP8266
