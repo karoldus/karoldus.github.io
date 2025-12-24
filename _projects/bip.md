@@ -1,7 +1,6 @@
 ---
 layout: inner
 title: 'Bezdotykowy Intuicyjny Przycisk (BIP)'
-date: 2021-06-01
 order: 1
 time_range: '10.2020 - 06.2021'
 categories: project

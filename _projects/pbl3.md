@@ -1,7 +1,6 @@
 ---
 layout: inner
 title: 'look up!'
-date: 2022-02-01
 order: 4
 time_range: '10.2021 - 02.2022'
 categories: project
