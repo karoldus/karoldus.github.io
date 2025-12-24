@@ -1,13 +1,13 @@
 # Site Settings
-title: "Hello. I'm Karol Duszczyk."
-description: "I'm an IoT Engineering student at Warsaw University of Technology. (This site is still under construction) "
+title: "Hello. I'm Karol!"
+description: "I'm an IoT Embedded Developer and IoT Engineering Master's student at Warsaw University of Technology. Welcome to my personal website where I share my projects, experience, and achievements in the field of IoT and software development."
 url: 'https://karoldus.github.io' # the base hostname & protocol for your site
 nav: "true"
-footer_text: '© 2022 Karol Duszczyk'
+footer_text: '© 2025 Karol Duszczyk'
 github: 'karoldus'
 linkedin: 'duszczykkarol'
 
 # Admin Settings
 admin_name: 'Karol Duszczyk'
-admin_email: ''
+admin_email: 'karolduszczyk38@gmail.com'
 google_analytics: "" # Update with your own tracking ID

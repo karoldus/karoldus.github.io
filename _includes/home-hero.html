@@ -34,6 +34,9 @@
             {% if site.data.global.linkedin != '' %}
               <a href="https://www.linkedin.com/in/{{ site.data.global.linkedin }}" target="_blank"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>LinkedIn</button></a>
             {% endif %}
+            {% if site.data.global.admin_email != '' %}
+              <a href="mailto:{{ site.data.global.admin_email }}"><button class="btn btn-default btn-lg"><i class="fa fa-envelope fa-lg"></i>Email</button></a>
+            {% endif %}
 
           </div>
 
