@@ -1,32 +1,17 @@
-
-<div id="ed-III" class="list-unstyled">
-    <h3 class="title">III semester</h3>
-
-    <ul class="excerpt">
-        <li>Raspberry Pi</li>
-        <li>MQTT, RESTAPI</li>
-    </ul>
-</div>
-
-
-
-<div id="ed-II" class="content">
-    <h3 class="title">I semester</h3>
-
-    <ul class="excerpt">
-        <li>Raspberry Pi</li>
-        <li>MQTT, RESTAPI</li>
-    </ul>
-</div>
-
-
-
-<div id="ed-I" class="content">
-    <h3 class="title">I semester</h3>
-
-    <ul class="excerpt">
-        <li>Basics of microcontrollers: Arduino, ESP8266</li>
-        <li>Prototyping</li>
-        <li>Prototyping</li>
-    </ul>
+<div class="timeline">
+  {% for item in site.data.education.items %}
+  <div class="timeline-item">
+    <h4 class="title">{{ item.degree }}</h4>
+    <h5 class="company">{{ item.institution }}</h5>
+    <p class="time-range">{{ item.time_range }}</p>
+    <p class="excerpt">{{ item.description }}</p>
+    {% if item.technologies %}
+    <p class="tech-tags">
+      {% for tech in item.technologies %}
+        <span class="badge">{{ tech }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+  </div>
+  {% endfor %}
 </div>

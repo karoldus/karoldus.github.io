@@ -1,2 +1,9 @@
 section_title: "Education"
 section_subtitle: "What I have learned during my IoT Engineering course at Warsaw University of Technology."
+
+items:
+  - degree: "Bachelor of Engineering in IoT"
+    institution: "Warsaw University of Technology"
+    time_range: "10.2020 - Present"
+    description: "IoT Engineering course covering microcontrollers, communication protocols, cloud platforms, and embedded systems."
+    technologies: [Arduino, ESP8266, LoRaWAN, Python, MQTT]
