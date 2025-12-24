@@ -2,8 +2,13 @@ section_title: "Work Experience"
 section_subtitle: "My professional experience in the field of IoT and software development."
 
 items:
-  - position: "IoT Developer Intern"
-    company: "Example Company"
-    time_range: "06.2023 - 09.2023"
-    description: "Worked on IoT solutions using LoRaWAN and cloud platforms."
-    technologies: [Python, LoRaWAN, AWS]
+  - position: "IoT Embedded Developer"
+    company: "Asseco Business Solutions S.A."
+    time_range: "07.2022 - 12.2024"
+    description: "Worked on IoT solutions for FMCG sector, focusing on embedded systems and cloud integration."
+    technologies: [C, ESP32, FreeRTOS, AWS]
+  - position: "IoT Embedded Developer & Co-Founder"
+    company: "Drifthing"
+    time_range: "07.2022 - Present"
+    description: "Working on an IoT system for motosports tracking and analytics, including hardware and software development. Manage finances and logistics."
+    technologies: [C, GNSS, IMU, nRF, ZephyrOS, Linux, Raspberry Pi]
