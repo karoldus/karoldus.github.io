@@ -1,0 +1,9 @@
+section_title: "Achievements & Publications"
+section_subtitle: "Academic achievements, awards, and publications."
+
+items:
+  - title: "Firebase in IoT Applications"
+    type: "Technical Article"
+    time_range: "02.2020"
+    description: "1st place in FORBOT technical article contest. Comprehensive guide on using Firebase with ESP8266 for IoT projects."
+    link: "https://forbot.pl/forum/topic/19590-firebase-w-zastosowaniach-iot-1-czym-jest-firebase-jak-zaczac"

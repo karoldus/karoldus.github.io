@@ -1,0 +1,17 @@
+<div class="timeline">
+  {% for item in site.data.experience.items %}
+  <div class="timeline-item">
+    <h4 class="title">{{ item.position }}</h4>
+    <h5 class="company">{{ item.company }}</h5>
+    <p class="time-range">{{ item.time_range }}</p>
+    <p class="excerpt">{{ item.description }}</p>
+    {% if item.technologies %}
+    <p class="tech-tags">
+      {% for tech in item.technologies %}
+        <span class="badge">{{ tech }}</span>
+      {% endfor %}
+    </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

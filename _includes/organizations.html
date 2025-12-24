@@ -1,0 +1,13 @@
+<div class="organizations-list">
+  {% for item in site.data.organizations.items %}
+  <div class="org-item">
+    <h4 class="title">{{ item.name }}</h4>
+    <h5 class="role">{{ item.role }}</h5>
+    <p class="time-range">{{ item.time_range }}</p>
+    <p class="excerpt">{{ item.description }}</p>
+    {% if item.link %}
+    <p><a href="{{ item.link }}" target="_blank" class="btn btn-sm btn-primary">Learn More</a></p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,9 @@
+section_title: "Work Experience"
+section_subtitle: "My professional experience in the field of IoT and software development."
+
+items:
+  - position: "IoT Developer Intern"
+    company: "Example Company"
+    time_range: "06.2023 - 09.2023"
+    description: "Worked on IoT solutions using LoRaWAN and cloud platforms."
+    technologies: [Python, LoRaWAN, AWS]

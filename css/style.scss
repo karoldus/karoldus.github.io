@@ -1,6 +1,4 @@
----
----
-
+--- ---
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -19,8 +17,13 @@
 $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
-%opensans { font-family: 'Open Sans', sans-serif; }
-%merriweather { font-family: 'Merriweather', serif; }
+%opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+%merriweather {
+  font-family: 'Merriweather', serif;
+}
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -38,7 +41,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   @extend %merriweather;
   font-weight: 700;
 }
@@ -54,29 +62,35 @@ p {
 
 a {
   @include transition(color .2s ease-in-out);
+
   &:hover {
     color: #FF5B33;
     text-decoration: none;
   }
 }
 
-button.btn, input.btn {
+button.btn,
+input.btn {
   padding: 12px 35px;
   margin: 2em 0.5em;
   border: solid 1px #d5e0e7;
   border-radius: 4px;
   color: #2E4453;
   font-weight: 600;
-  &:hover, &.btn-default:hover {
+
+  &:hover,
+  &.btn-default:hover {
     background-color: white;
     border: solid 1px #b0c5d2;
     -moz-box-shadow: 0 1px 0 #b0c5d2;
     -webkit-box-shadow: 0 1px 0 #b0c5d2;
     box-shadow: 0 1px 0 #b0c5d2;
   }
+
   i {
     padding-right: 0.5em;
   }
+
   @include bp-xsmall {
     @include horizontal-align;
     margin-bottom: 0.5em;
@@ -87,6 +101,7 @@ button.btn, input.btn {
   background-color: white;
   border-left: solid 1px #cedfea;
   border-right: solid 1px #cedfea;
+
   &.container {
     padding: 0;
   }
@@ -99,6 +114,7 @@ button.btn, input.btn {
   margin: 0 auto;
   display: table;
   @include transition(top .2s ease-in);
+
   &:hover {
     top: 3px;
   }
@@ -109,9 +125,11 @@ button.btn, input.btn {
 --------------------------------------------------------------*/
 .hero-container {
   margin: 10em 0 9em 0;
+
   @include bp-xsmall {
     margin: 5em 0 5em 0;
   }
+
   @include bp-small {
     margin: 5em 0 5em 0;
   }
@@ -121,24 +139,31 @@ button.btn, input.btn {
   width: 60%;
   margin: 0 auto;
   display: table;
+
   @include bp-medium {
     width: 100%;
   }
+
   @include bp-small {
     width: 100%;
   }
+
   @include bp-xsmall {
     width: 100%;
   }
+
   h1 {
     font-size: 48px;
   }
+
   p {
     margin: 2em 0 4em 0;
   }
+
   .hero-buttons {
     margin: 0 auto;
     display: table;
+
     i {
       padding-right: 0.5em;
     }
@@ -150,6 +175,7 @@ button.btn, input.btn {
 --------------------------------------------------------------*/
 .modal-header {
   border-bottom: none;
+
   button {
     margin-bottom: 0;
   }
@@ -161,38 +187,48 @@ button.btn, input.btn {
 
 .modal-body {
   margin: 0 20px;
+
   label {
     font-weight: 300;
     font-size: 22px;
     margin-bottom: 0.5em;
   }
-  textarea, input {
+
+  textarea,
+  input {
     border-color: #e6e6e6;
     border-radius: 2px;
     -webkit-box-shadow: none;
     box-shadow: none;
     margin-bottom: 1em;
   }
+
   .form-group {
     margin: 0;
   }
+
   .form-control {
     padding: 25px;
     font-size: 16px;
   }
-  input[type="submit"]{
+
+  input[type="submit"] {
     float: right;
     margin-right: 0;
   }
+
   ::-webkit-input-placeholder {
     color: #D6D6D6;
   }
+
   :-moz-placeholder {
     color: #D6D6D6;
   }
+
   ::-moz-placeholder {
     color: #D6D6D6;
   }
+
   :-ms-input-placeholder {
     color: #D6D6D6;
   }
@@ -203,14 +239,27 @@ button.btn, input.btn {
 --------------------------------------------------------------*/
 #portfolio .container {
   margin-top: 10em;
+
   @include bp-xsmall {
     margin-top: 2em;
   }
+
   .break {
     margin: 8em 0;
+
     @include bp-xsmall {
       margin: 2em 0;
     }
+  }
+}
+
+.content-section {
+  margin-top: 8em;
+  margin-bottom: 8em;
+
+  @include bp-xsmall {
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 }
 
@@ -218,6 +267,7 @@ button.btn, input.btn {
   position: relative;
   margin: 0 auto;
   margin-bottom: 1em;
+
   &:after {
     content: '';
     position: absolute;
@@ -235,39 +285,50 @@ button.btn, input.btn {
 .section-subtitle {
   width: 40%;
   margin: 0 auto;
+
   @include bp-xsmall {
     width: 100%;
   }
+
   @include bp-small {
-    width: 60%;;
+    width: 60%;
+    ;
   }
 }
 
 .content-wrap {
   margin-bottom: 8em;
+
   @include bp-xsmall {
     margin-bottom: 2em;
   }
+
   @include bp-small {
     margin-bottom: 2em;
   }
+
   img.img-responsive {
     @include bp-xsmall {
       display: none;
     }
+
     @include bp-small {
       display: none;
     }
   }
+
   .content {
     margin-top: 5em;
     margin-left: 5em;
+
     @include bp-xsmall {
       margin-left: 0;
     }
+
     h3.title {
       position: relative;
       margin-bottom: 1.5em;
+
       &:after {
         content: '';
         position: absolute;
@@ -278,20 +339,26 @@ button.btn, input.btn {
         background-color: #ECEFF1;
       }
     }
+
     .excerpt {
       width: 80%;
+
       @include bp-xsmall {
         width: 100%;
       }
     }
-    button{
+
+    button {
       font-size: 16px;
       margin-left: 0;
       margin-bottom: 1em;
       margin-top: 1em;
     }
-    .tags, .categories {
+
+    .tags,
+    .categories {
       margin: 2em 0;
+
       span {
         color: #9eb1bd;
         background-color: #ECEFF1;
@@ -300,6 +367,7 @@ button.btn, input.btn {
         margin-bottom: 0.5em;
       }
     }
+
     .categories span {
       color: #b9b1ad;
       background-color: #EFEBE9;
@@ -315,18 +383,22 @@ button.btn, input.btn {
   margin-top: 2em;
   border-top: 1px solid #efefef;
   padding: 1em 0;
+
   p {
     font-size: 12px;
     font-weight: 600;
     color: #9eb1bd;
     margin: 0;
     padding: 10px 0;
+
     @include bp-xsmall {
       text-align: center;
     }
   }
+
   .section-jump {
     float: right;
+
     @include bp-xsmall {
       float: none;
     }

@@ -7,12 +7,8 @@
         <div class="row">
           <div class="col-md-12">
 
-            {% if site.data.posts.section_title != '' %}
-            <h2 class="section-title text-center">{{ site.data.posts.section_title }}</h2>
-            {% endif %}
-            {% if site.data.posts.section_subtitle != '' %}
-            <p class="section-subtitle text-center">{{ site.data.posts.section_subtitle }}</p>
-            {% endif %}
+            <h2 class="section-title text-center">{{ site.data.projects.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.projects.section_subtitle }}</p>
 
             <div class="break"></div>
 
@@ -39,34 +35,89 @@
       </div>
     </main>
 
-    {% comment %} <!-- EDUCATION -->  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a  id="education" style="position:absolute; top:-100px;"></a>
-          <h2 class="section-title text-center">Education</h2>
-          <p class="section-subtitle text-center">What I have learned during my IoT Engineering course.</p>
-          <div class="break"></div>
-        </div>
-        <div class="col-md-8 col-md-offset-2">
-          {% include education.html %}
+    <!-- TECHNOLOGIES -->  
+    <section class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="technologies" style="position:absolute; top:-100px;"></a>
+            <h2 class="section-title text-center">{{ site.data.technologies.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.technologies.section_subtitle }}</p>
+            <div class="break"></div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            {% include skills.html %}
+          </div>
         </div>
       </div>
-    </div> {% endcomment %}
+    </section>
 
-    <!-- SKILLS -->  
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <a  id="technologies" style="position:absolute; top:-100px;"></a>
-          <h2 class="section-title text-center">Technologies</h2>
-          <p class="section-subtitle text-center">Technologies I have worked with during my IoT Engineering course and my own projects.</p>
-          <div class="break"></div>
-        </div>
-        <div class="col-md-8 col-md-offset-2">
-          {% include skills.html %}
+    <!-- EXPERIENCE -->
+    <section class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="experience" style="position:absolute; top:-100px;"></a>
+            <h2 class="section-title text-center">{{ site.data.experience.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.experience.section_subtitle }}</p>
+            <div class="break"></div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            {% include experience.html %}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- ORGANIZATIONS -->
+    <section class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="organizations" style="position:absolute; top:-100px;"></a>
+            <h2 class="section-title text-center">{{ site.data.organizations.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.organizations.section_subtitle }}</p>
+            <div class="break"></div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            {% include organizations.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->  
+    <section class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="education" style="position:absolute; top:-100px;"></a>
+            <h2 class="section-title text-center">{{ site.data.education.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.education.section_subtitle }}</p>
+            <div class="break"></div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            {% include education.html %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="content-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a id="achievements" style="position:absolute; top:-100px;"></a>
+            <h2 class="section-title text-center">{{ site.data.achievements.section_title }}</h2>
+            <p class="section-subtitle text-center">{{ site.data.achievements.section_subtitle }}</p>
+            <div class="break"></div>
+          </div>
+          <div class="col-md-8 col-md-offset-2">
+            {% include achievements.html %}
+          </div>
+        </div>
+      </div>
+    </section>
 
 {% include footer.html %}

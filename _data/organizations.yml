@@ -1,0 +1,9 @@
+section_title: "Organizations & Volunteering"
+section_subtitle: "My involvement in student organizations and community projects."
+
+items:
+  - name: "SmartCity PW"
+    role: "Member / Developer"
+    time_range: "10.2020 - 06.2021"
+    description: "Developed touchless pedestrian push-button (BIP project) for smart city solutions."
+    link: "https://mknsc.il.pw.edu.pl"
