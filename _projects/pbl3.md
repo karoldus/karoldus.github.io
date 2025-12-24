@@ -1,11 +1,11 @@
 ---
 layout: inner
 title: 'look up!'
-order: 4
+order: 5
 time_range: '10.2021 - 02.2022'
 categories: project
-tags: IoT RaspberrPI MQTT LoRaWAN Python
-# featured_image: 'img/posts/project-bip.png'
+tags: Raspberry_PI MQTT LoRaWAN Python
+featured_image: 'img/projects/pbl3.png'
 project_link: 'https://github.com/karoldus/pbl3-z5'
 button_icon: 'github'
 button_text: 'Visit Project'
