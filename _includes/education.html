@@ -5,13 +5,6 @@
     <h5 class="company">{{ item.institution }}</h5>
     <p class="time-range">{{ item.time_range }}</p>
     <p class="excerpt">{{ item.description }}</p>
-    {% if item.technologies %}
-    <p class="tech-tags">
-      {% for tech in item.technologies %}
-        <span class="badge">{{ tech }}</span>
-      {% endfor %}
-    </p>
-    {% endif %}
   </div>
   {% endfor %}
 </div>
